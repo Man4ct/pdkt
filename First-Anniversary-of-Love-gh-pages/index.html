@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta charset="UTF-8" />
+    <title>First anniversary of love</title>
+    <link rel="stylesheet" type="text/css" href="./css/format.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="goodnight.js"></script>
+    <script>
+      Goodnight.AM = 18;
+      Goodnight.PM = 6;
+      Goodnight.css("styles/dark.css");
+
+      window.addEventListener(
+        "DOMContentLoaded",
+        function () {
+          window.addEventListener(
+            "click",
+            function () {
+              Goodnight.toggle();
+            },
+            false
+          );
+        },
+        false
+      );
+    </script>
+	 <script>
+    var myDate = new Date();
+    var hrs = myDate.getHours();
+
+    var greet;
+
+    if (hrs < 12) greet = "Good Morning";
+    else if (hrs >= 12 && hrs <= 17) greet = "Good Afternoon";
+    else if (hrs >= 17 && hrs <= 24) greet = "Good Evening";
+
+    document.getElementById("lblGreetings").innerHTML = "<b>" + greet + "</b> and welcome to Encodedna.com!";
+  </script>
+  </head>
+
+  <body style="margin: 0px">
+    <div id="imgTxt">
+      <span id="Txt"></span> <br />
+      <span id="tmp"></span>
+      <img id="img" src="" />
+    </div>
+	  <div id="demo">
+      <p>Night theme should show between 06:00 -> 18:00.</p>
+      <p>Click anywhere to toggle styles</p>
+
+    <div id="typeDiv">
+      <span id="txt1"></span> <br />
+      <span id="txt2"></span>
+    </div>
+
+    <script type="text/javascript" src="./js/stars.js"></script>
+    <script type="text/javascript" src="./js/typeWriter.js"></script>
+    <script type="text/javascript" src="./js/date.js"></script>
+    <script type="text/javascript" src="./js/playImg.js"></script>
+  </body>
+</html>
