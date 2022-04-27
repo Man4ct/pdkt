@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  background-color: #c9cbff;
+  color: #654062;
+  padding: 5px;
+  border-radius: 10px;
+  position: relative;
+  bottom: 200px;
+}
+
+.buttonn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-decoration: none;
+  padding: 20px 35px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#yes {
+  background: #9ad3bc;
+  color: #222831;
+  left: 20%;
+  transform: translateY(-50%) translateX(-20%);
+}
+
+#no {
+  background: #8f384d;
+  color: #fff3e2;
+  left: 80%;
+  transform: translateY(-50%) translateX(-80%);
+}
