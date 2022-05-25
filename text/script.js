@@ -1,6 +1,6 @@
 const textEl = document.getElementById("text");
 const speedEl = document.getElementById("speed");
-let text = "Halo caca..Kenalan boleh?";
+let text = "Dear Jessica Valerie . . . May i have your number? :)";
 let idx = 1;
 let speed = 300 / speedEl.value;
 
